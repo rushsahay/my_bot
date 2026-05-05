@@ -124,7 +124,7 @@
       </gazebo>
 
       <!-- Caster Wheel-->
-       <joint name="CW_joint" type="fixed">
+       <joint name="CW_joint" type="continuous">
          <parent link="chassis"/>
          <child link="caster_wheel"/>
          <origin xyz = "0.24 0 0"/>
